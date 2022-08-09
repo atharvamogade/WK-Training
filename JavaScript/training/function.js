@@ -29,4 +29,4 @@ console.log(sumTwo(2, 4));
 
 const arrowSQRE = (num) => num * num;
 
-console.log(arrowSQRE(9))
+console.log(arrowSQRE(9)); 
