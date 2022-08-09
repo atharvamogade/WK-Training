@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin: 32px 0;
+    width: 400px;
+}
+
+button {
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.btn:link,
+.btn:visited {
+    padding: 16px 32px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid blue;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------------------------ INPUT SECTION ----------------------------- */
+
+#patient-id {
+    font-size: 18px;
+    padding: 16px 32px;
+    border: 1px solid blue;
+    width: 100%;
+}
+
+#patient-id:focus {
+    outline: none;
+}
+
+.input-container {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+}
+
+/* ----------------------------- BUTTON SECTION ----------------------------- */
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ----------------------------- OUTPUT SECTION ----------------------------- */
+
+.output-container {
+    border: 1px solid blue;
+    padding: 32px 32px;
+    text-align: center;
+}
+
+.heading-tertiary {
+    margin: 16px 0;
+}
+
+.patient-ids {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
